@@ -1,8 +1,7 @@
-import java.util.*;
-import java.lang.*;
 import java.io.*;
+import java.util.*;
 
-class MissingNumber {
+public class MissingNumber {
     public static void main(String[] args) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             String string;

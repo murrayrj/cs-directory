@@ -1,6 +1,5 @@
-import java.util.*;
-import java.lang.*;
 import java.io.*;
+import java.util.*;
 
 public class LongestPalindrome {
     public static void main(String[] args) throws IOException {
