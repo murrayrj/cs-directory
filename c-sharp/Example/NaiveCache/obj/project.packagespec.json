@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/RMC/Desktop/cs-directory/c-sharp/Example/NaiveCache/NaiveCache.csproj",
+    "projectName": "NaiveCache",
+    "projectPath": "/Users/RMC/Desktop/cs-directory/c-sharp/Example/NaiveCache/NaiveCache.csproj",
+    "outputPath": "/Users/RMC/Desktop/cs-directory/c-sharp/Example/NaiveCache/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

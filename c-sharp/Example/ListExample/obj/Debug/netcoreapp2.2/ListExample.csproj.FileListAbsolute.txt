@@ -1,0 +1,11 @@
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/bin/Debug/netcoreapp2.2/ListExample.deps.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/bin/Debug/netcoreapp2.2/ListExample.runtimeconfig.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/bin/Debug/netcoreapp2.2/ListExample.runtimeconfig.dev.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/bin/Debug/netcoreapp2.2/ListExample.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/bin/Debug/netcoreapp2.2/ListExample.pdb
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.csprojAssemblyReference.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.csproj.CoreCompileInputs.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.AssemblyInfoInputs.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.AssemblyInfo.cs
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/ListExample/obj/Debug/netcoreapp2.2/ListExample.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListExample", "ListExample\ListExample.csproj", "{2F2B80E3-675C-4DAB-B95B-2C3E76114514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{89BE0971-B471-487E-9F5B-F6E844F3E6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveCache", "NaiveCache\NaiveCache.csproj", "{DD3BA296-9554-48E9-A0F5-DA0931A60191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{0A4B8031-0AA9-4DE2-88D2-F88E60A7F598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2B80E3-675C-4DAB-B95B-2C3E76114514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2B80E3-675C-4DAB-B95B-2C3E76114514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2B80E3-675C-4DAB-B95B-2C3E76114514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2B80E3-675C-4DAB-B95B-2C3E76114514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BE0971-B471-487E-9F5B-F6E844F3E6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BE0971-B471-487E-9F5B-F6E844F3E6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BE0971-B471-487E-9F5B-F6E844F3E6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BE0971-B471-487E-9F5B-F6E844F3E6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3BA296-9554-48E9-A0F5-DA0931A60191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3BA296-9554-48E9-A0F5-DA0931A60191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3BA296-9554-48E9-A0F5-DA0931A60191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3BA296-9554-48E9-A0F5-DA0931A60191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4B8031-0AA9-4DE2-88D2-F88E60A7F598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4B8031-0AA9-4DE2-88D2-F88E60A7F598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4B8031-0AA9-4DE2-88D2-F88E60A7F598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4B8031-0AA9-4DE2-88D2-F88E60A7F598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

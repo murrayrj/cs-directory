@@ -1,0 +1,11 @@
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/bin/Debug/netcoreapp2.2/LinkedList.deps.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/bin/Debug/netcoreapp2.2/LinkedList.runtimeconfig.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/bin/Debug/netcoreapp2.2/LinkedList.runtimeconfig.dev.json
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/bin/Debug/netcoreapp2.2/LinkedList.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/bin/Debug/netcoreapp2.2/LinkedList.pdb
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.csprojAssemblyReference.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.csproj.CoreCompileInputs.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.AssemblyInfoInputs.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.AssemblyInfo.cs
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/Example/LinkedList/obj/Debug/netcoreapp2.2/LinkedList.pdb
