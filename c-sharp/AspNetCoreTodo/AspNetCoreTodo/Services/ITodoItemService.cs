@@ -5,8 +5,10 @@ using AspNetCoreTodo.Models;
 
 namespace AspNetCoreTodo.Services
 {
-    public abstract class ITodoItemService
+    public interface ITodoItemService
     {
-        public abstract Task<TodoItem[]> GetIncompleteItemsAsync();
+        Task<TodoItem[]> GetIncompleteItemsAsync();
+        Task<bool> AddItemAsync(TodoItem newItem);
+        Task<bool> MarkDoneAsync(Guid id);
     }
 }

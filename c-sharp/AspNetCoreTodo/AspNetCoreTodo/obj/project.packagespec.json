@@ -26,6 +26,10 @@
   "frameworks": {
     "netcoreapp3.0": {
       "dependencies": {
+        "Humanizer": {
+          "target": "Package",
+          "version": "[2.7.9, )"
+        },
         "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.0.0, )"

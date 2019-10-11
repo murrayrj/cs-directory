@@ -23,6 +23,8 @@
         <e p="Migrations" t="Include">
           <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
           <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+          <e p="20191011183447_AddItems.cs" t="Include" />
+          <e p="20191011183447_AddItems.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
       </e>
@@ -44,8 +46,8 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="Services" t="Include">
-        <e p="FakeTodoItemService.cs" t="Include" />
         <e p="ITodoItemService.cs" t="Include" />
+        <e p="TodoItemService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="Views" t="Include">
@@ -62,6 +64,8 @@
           <e p="Error.cshtml" t="Include" />
         </e>
         <e p="Todo" t="Include">
+          <e p="AddItemPartial.cshtml" t="Include" />
+          <e p="AddItemPartial.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Index.cshtml.cs" t="Include" />
         </e>
