@@ -25,6 +25,8 @@
           <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
           <e p="20191011183447_AddItems.cs" t="Include" />
           <e p="20191011183447_AddItems.Designer.cs" t="Include" />
+          <e p="20191014191123_AddItemUserId.cs" t="Include" />
+          <e p="20191014191123_AddItemUserId.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
       </e>
