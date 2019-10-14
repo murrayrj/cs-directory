@@ -113,3 +113,5 @@
 /Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/netcoreapp3.0/zh-Hans/Humanizer.resources.dll
 /Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/netcoreapp3.0/zh-Hant/Humanizer.resources.dll
 /Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/netcoreapp3.0/Razor/Views/Todo/AddItemPartial.cshtml.g.cs
+/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/netcoreapp3.0/Razor/Views/ManageUsers/Index.cshtml.g.cs
+/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_AdminActionsPartial.cshtml.g.cs

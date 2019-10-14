@@ -43,6 +43,7 @@ namespace AspNetCoreTodo.Controllers
             {
                 return RedirectToAction("Index");
             }
+
             var currentUser = await _userManager.GetUserAsync(User);
             if (currentUser == null) return Challenge();
             var successful = await _todoItemService
@@ -51,6 +52,7 @@ namespace AspNetCoreTodo.Controllers
             {
                 return BadRequest("Could not add item.");
             }
+
             return RedirectToAction("Index");
         }
 
@@ -61,6 +63,7 @@ namespace AspNetCoreTodo.Controllers
             {
                 return RedirectToAction("Index");
             }
+
             var currentUser = await _userManager.GetUserAsync(User);
             if (currentUser == null) return Challenge();
             var successful = await _todoItemService
@@ -69,6 +72,7 @@ namespace AspNetCoreTodo.Controllers
             {
                 return BadRequest("Could not mark item as done.");
             }
+
             return RedirectToAction("Index");
         }
     }
