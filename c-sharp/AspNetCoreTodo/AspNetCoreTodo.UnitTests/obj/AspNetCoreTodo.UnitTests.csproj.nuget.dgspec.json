@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo.UnitTests/AspNetCoreTodo.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo.UnitTests/AspNetCoreTodo.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo.UnitTests/AspNetCoreTodo.UnitTests.csproj",
+        "projectName": "AspNetCoreTodo.UnitTests",
+        "projectPath": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo.UnitTests/AspNetCoreTodo.UnitTests.csproj",
+        "packagesPath": "/Users/RMC/.nuget/packages/",
+        "outputPath": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/RMC/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/AspNetCoreTodo.csproj": {
+                "projectPath": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/AspNetCoreTodo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/AspNetCoreTodo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/AspNetCoreTodo.csproj",
+        "projectName": "AspNetCoreTodo",
+        "projectPath": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/AspNetCoreTodo.csproj",
+        "packagesPath": "/Users/RMC/.nuget/packages/",
+        "outputPath": "/Users/RMC/Desktop/cs-directory/c-sharp/AspNetCoreTodo/AspNetCoreTodo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/RMC/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.7.9, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
