@@ -1,3 +1,4 @@
+using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,10 +7,17 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using StarWars.Api.Controllers;
+using StarWars.Api.Models;
+using StarWars.Core.Data;
+using StarWars.Data.EntityFramework;
+using StarWars.Data.EntityFramework.Repositories;
+using StarWars.Data.EntityFramework.Seed;
 
 namespace StarWars.Api
 {
@@ -25,12 +33,28 @@ namespace StarWars.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            
+            services.AddScoped<StarWarsQuery>();
+            services.AddTransient<IDroidRepository, DroidRepository>();
+            services.AddDbContext<StarWarsContext>(options => 
+                options.UseSqlServer(Configuration["ConnectionStrings:StarWarsDatabaseConnection"])
+            );
+            services.AddMvc(option => option.EnableEndpointRouting = false);
+            services.AddLogging(loggingBuilder =>
+            {
+                loggingBuilder.AddConfiguration(Configuration.GetSection("Logging"));
+                loggingBuilder.AddDebug();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseMvc();
+
+/*            db.EnsureSeedData();*/
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

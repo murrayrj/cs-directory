@@ -1,18 +1,30 @@
+using System.Collections.Generic;
+using System.Linq;
 using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
 using StarWars.Api.Models;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using StarWars.Core.Data;
+using StarWars.Core.Models;
+using StarWars.Data.EntityFramework;
 
 namespace StarWars.Api.Controllers
 {
     [Route("graphql")]
     public class GraphQLController : Controller
     {
+        private StarWarsQuery _starWarsQuery { get; set; }
+        
+        public GraphQLController(StarWarsQuery starWarsQuery)
+        {
+            _starWarsQuery = starWarsQuery;
+        }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GraphQLQuery query)
         {
-            var schema = new Schema { Query = new StarWarsQuery() };
+            var schema = new Schema { Query = _starWarsQuery };
 
             var result = await new DocumentExecuter().ExecuteAsync(_ =>
             {
