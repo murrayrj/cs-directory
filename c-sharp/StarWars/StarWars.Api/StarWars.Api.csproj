@@ -4,15 +4,21 @@
         <TargetFramework>netcoreapp3.0</TargetFramework>
         <DockerfileContext>..\..\..</DockerfileContext>
     </PropertyGroup>
-
+    
+    <ItemGroup>
+        <Content Update="wwwroot\**\*;**\*.cshtml;appsettings.json;web.config">
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content>
+    </ItemGroup>
+    
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="9.0.0" />
       <PackageReference Include="GraphQL" Version="3.0.0-preview-1271" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0-preview1.19506.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0-preview1.19506.2" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0-preview1.19506.1" />
-      <PackageReference Include="MySql.Data" Version="8.0.18" />
-      <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.18" />
-      <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.18" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.0-preview1.19504.10" />
     </ItemGroup>
 
     <ItemGroup>

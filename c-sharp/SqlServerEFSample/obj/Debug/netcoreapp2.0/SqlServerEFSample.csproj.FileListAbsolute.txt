@@ -1,0 +1,11 @@
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/bin/Debug/netcoreapp2.0/SqlServerEFSample.deps.json
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/bin/Debug/netcoreapp2.0/SqlServerEFSample.runtimeconfig.json
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/bin/Debug/netcoreapp2.0/SqlServerEFSample.runtimeconfig.dev.json
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/bin/Debug/netcoreapp2.0/SqlServerEFSample.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/bin/Debug/netcoreapp2.0/SqlServerEFSample.pdb
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.csprojAssemblyReference.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.AssemblyInfoInputs.cache
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.AssemblyInfo.cs
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.dll
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.pdb
+/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/Debug/netcoreapp2.0/SqlServerEFSample.csproj.CoreCompileInputs.cache

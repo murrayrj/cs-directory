@@ -1,10 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using StarWars.Api.Models;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using StarWars.Core.Data;
 using StarWars.Core.Models;
@@ -21,24 +23,31 @@ namespace StarWars.Api.Controllers
         {
             _starWarsQuery = starWarsQuery;
         }
+        [HttpGet]
+        public IActionResult Index()
+        {
+            return View();
+        }   
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GraphQLQuery query)
         {
-            var schema = new Schema { Query = _starWarsQuery };
-
-            var result = await new DocumentExecuter().ExecuteAsync(_ =>
+            var schema = new Schema {Query = _starWarsQuery};
+            var executionOptions = new ExecutionOptions {Schema = schema, Query = query.Query};
+            try
             {
-                _.Schema = schema;
-                _.Query = query.Query;
+                var result = await new DocumentExecuter().ExecuteAsync(executionOptions).ConfigureAwait(false);
 
-            }).ConfigureAwait(false);
+                if (result.Errors?.Count > 0)
+                {
+                    return BadRequest();
+                }
 
-            if (result.Errors?.Count > 0)
-            {
-                return BadRequest();
+                return Ok(result);
             }
-
-            return Ok(result);
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
     }
 }

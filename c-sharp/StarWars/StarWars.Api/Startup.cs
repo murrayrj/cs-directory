@@ -33,9 +33,9 @@ namespace StarWars.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            
-            services.AddScoped<StarWarsQuery>();
+            services.AddMvc();
+
+            services.AddTransient<StarWarsQuery>();
             services.AddTransient<IDroidRepository, DroidRepository>();
             services.AddDbContext<StarWarsContext>(options => 
                 options.UseSqlServer(Configuration["ConnectionStrings:StarWarsDatabaseConnection"])
@@ -49,11 +49,12 @@ namespace StarWars.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env, ILoggerFactory loggerFactory, StarWarsContext db)
         {
+            app.UseStaticFiles();
             app.UseMvc();
 
-/*            db.EnsureSeedData();*/
+            db.EnsureSeedData();
             
             if (env.IsDevelopment())
             {

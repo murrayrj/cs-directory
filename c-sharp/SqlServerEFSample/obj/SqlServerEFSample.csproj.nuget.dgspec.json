@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/SqlServerEFSample.csproj": {}
+  },
+  "projects": {
+    "/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/SqlServerEFSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/SqlServerEFSample.csproj",
+        "projectName": "SqlServerEFSample",
+        "projectPath": "/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/SqlServerEFSample.csproj",
+        "packagesPath": "/Users/RMC/.nuget/packages/",
+        "outputPath": "/Users/RMC/Desktop/cs-directory/c-sharp/SqlServerEFSample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/RMC/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
